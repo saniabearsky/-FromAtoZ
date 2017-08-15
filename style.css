@@ -1,0 +1,292 @@
+body {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	margin: 0;
+}
+
+img {max-width:100%;}
+
+.header-container {
+	text-align: center;
+	background-color: #f9f9d9;
+}
+
+.head-logo {padding: 20px 0;}
+
+.head-menu {background-color: #1ea0e0;}
+
+.menu-item {
+	display: inline-block;
+	padding: 10px 0;
+	width: 18%;	
+}
+
+.menu-item a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.topContainer {border-bottom: 3px solid #fd00b9;}
+
+.topSection {
+	margin: auto;
+	width: 80%;
+}
+
+.headline {
+	text-align: center;
+	padding: 0 30px 0 150px;
+	border-bottom: 3px solid #fd00b9;
+}
+
+.headline img {margin-bottom: -13px;}
+
+.onBike {margin-left: -15px;}
+
+.description {
+	text-align: center;
+	margin: 50px auto;
+}
+
+.description h1 {
+	color: #1ea0e0;
+	font-size: 2.8em;
+	font-weight: 400;
+	margin: 20px auto;
+}
+
+.description h3 {
+	font-size: 1.4em;
+	font-weight: 400;
+}
+
+.funnel {
+	overflow: hidden;
+	background-image: url("img/BlueFunnel.png");
+	background-size: cover;
+	padding-bottom: 200px;
+}
+
+section.books {
+	padding: 50px 0;
+}
+
+.upBooks {
+	display: block;
+	width: 100%;
+}
+
+.leftUpBook, .rightUpBook {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.leftUpBook img, .rightUpBook img {width: 80%;}
+
+.leftUpBook img {padding-left: 75px}
+.rightUpBook img {padding-right: 75px}
+
+.downBook {	
+	text-align: center;
+	width: 100%;
+}
+.downBook img {width: 82%;}
+
+.buttonsRow {
+	display: table;
+	margin: auto;
+	padding: 25px 0;
+}
+
+.downloadBtn {
+	display: inline-table;
+	padding-left: 15px;
+}
+ 
+.buttonsRow a {
+	color: #000;
+	text-decoration: none;
+	display: block;
+}
+
+.buttonsRow img {
+    max-width: 75%;
+    width: 75%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+sup { 
+	vertical-align: top; 
+	position: relative; 
+	top: -0.5em;
+	font-family: "Times New Roman";
+}
+
+section.formats, section.reviews {
+	padding: 50px 0 20px;
+	border-top: 3px solid #fd00b9;	
+	margin: auto;
+}
+
+section.formats {width: 70%;}
+
+.sectionText {
+	text-align: center;
+}
+
+.sectionText h2 {
+	margin: auto;
+	font-size: 2.8em;
+}
+
+.sectionText p {	
+	width: 68%;
+	margin: 0 auto;
+	font-size: 1.3em;
+}
+
+.formatsImgs {position: relative;}
+
+.tabletImg {
+	position: relative;
+	left: 140px;
+	top: 30px;
+	width: 50%;
+}
+
+.phoneImg {
+	position: absolute;
+	right: 70px;
+	top: 213px;
+}
+
+.compImg {
+	position: relative;
+	width: 63%;
+}
+
+.whale {
+	width: 100%;
+	background-image: url(img/Whale.png);
+	background-position: 94% 15%;
+	background-repeat: no-repeat;
+	background-size: 380px auto;	
+}
+
+.baloons {
+	width: 100%;
+	background-image: url(img/balloons.png);
+	background-position: 9% 83%;
+	background-repeat: no-repeat;
+	
+}
+section.reviews {width: 55%;}
+
+.reviewItem {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	padding: 20px 0;
+}
+
+.rateReview {max-width: 60%}
+
+.reviewText {
+	text-align: center;
+	font-size: 1.3em;
+	width: 76%;
+	margin: auto;
+}
+
+.lastReview {width: 60%}
+
+.purpleBlock {
+	text-align: center;
+	color: #FFF;
+	background-color: #b096f9;
+	padding: 30px 30px;
+}
+.purpleBlock img {
+	position: relative;
+	margin-top: -16%;
+}
+
+.purpleText h1 {font-size: 3em;}
+.purpleText p {font-size: 2em;}
+
+.discountBlock{
+	text-align: center;
+	padding: 80px;
+}
+
+.discountBlock h1 {
+	margin: 0 auto;
+	font-size: 3em;
+}
+
+.discountBlock p {
+	margin: 5px auto;	
+	font-size: 1.6em;
+	color: #626262;
+}
+
+s,
+strike {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+s:after,
+strike:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 2px solid red;
+  height: 45%;
+  height: calc(50% - 1px);
+  width: 100%;
+  transform: rotateZ(-15deg);
+}
+
+.footerContainer {
+	text-align: center;	
+	background-color: #2f2f2f;
+	color: #666;	
+	padding: 30px 110px;
+}
+
+.footerText, .copyright {font-size: 1.3em;}
+.copyright sup {
+	font-size: 0.5em;
+	vertical-align: middle;
+}
+
+.footerMenu ul {
+  list-style: none;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+}
+.footerMenu li { 
+  font-size: 1.1em;
+  display: inline-block;
+}
+ 
+.footerMenu a {
+  text-decoration: none;  
+  color: #000;
+  display: block;
+}
+
+.footerMenu span {color: #666;}
+
+@media screen and (min-width: 1200px) {
+	body {
+		background-color: #666;
+	}
+}
